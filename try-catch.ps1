@@ -10,6 +10,5 @@ try {
     $chatID = $([System.Environment]::GetEnvironmentVariables().telegram_chat_id)
 
     $Message = "Ocorreu erro realizando um backup!`n`nServidor: $servername`n`n" + "Erro: $deuruim"
-    Write-Host [$message]
     Invoke-RestMethod -Uri "https://api.telegram.org/bot$($MyToken)/sendMessage?chat_id=$($chatID)&text=$($Message)"
 }
