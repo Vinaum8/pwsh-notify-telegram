@@ -8,7 +8,7 @@
 #
 # -------------------------------------------------------------------------- #
 #
-# Este script basicamente coleta as variáveis de ambiente do telegram setadas no seu servidor ou container e envia a mensagem de retorno do try-catch para o chat ID.
+# Este script basicamente coleta as variáveis de ambiente setadas no seu server e envia a mensagem ao telegram em caso de erros.
 #
 # Exemplos de Execução:
 #       $ ./try-catch.ps1
